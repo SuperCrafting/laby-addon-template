@@ -5,11 +5,11 @@ plugins {
 
 val versions = providers.gradleProperty("net.labymod.minecraft-versions").get().split(";")
 
-group = "org.example"
+group = "pt.supercrafting"
 version = providers.environmentVariable("VERSION").getOrElse("1.0.0")
 
 labyMod {
-    defaultPackageName = "org.example" //change this to your main package name (used by all modules)
+    defaultPackageName = "pt.supercrafting.addon" //change this to your main package name (used by all modules)
 
     minecraft {
         registerVersion(versions.toTypedArray()) {
@@ -25,7 +25,7 @@ labyMod {
     addonInfo {
         namespace = "example"
         displayName = "ExampleAddon"
-        author = "Example Author"
+        author = "Super_Crafting"
         description = "Example Description"
         minecraftVersion = "*"
         version = rootProject.version.toString()
