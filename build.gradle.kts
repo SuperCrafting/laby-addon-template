@@ -23,7 +23,7 @@ labyMod {
     }
 
     addonInfo {
-        namespace = "example"
+        namespace = "addon"
         displayName = "ExampleAddon"
         author = "Super_Crafting"
         description = "Example Description"
