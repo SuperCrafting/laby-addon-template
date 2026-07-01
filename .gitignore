@@ -78,3 +78,6 @@ access_widener_index.json
 
 # Don't ignore libraries
 !libs/*.jar
+
+# MacOS
+.DS_Store
